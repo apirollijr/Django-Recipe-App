@@ -141,7 +141,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Author**: API Rolli Jr
+- **Author**: Anthony Pirolli Jr
 - **GitHub**: [@apirollijr](https://github.com/apirollijr)
 - **Repository**: [Django-Recipe-App](https://github.com/apirollijr/Django-Recipe-App)
 
