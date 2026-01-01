@@ -1,5 +1,8 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login
+from django.contrib import messages
 from .models import Recipe
 from categories.models import Category
 from ingredients.models import Ingredient
@@ -7,6 +10,24 @@ from ingredients.models import Ingredient
 
 def home(request):
 	return render(request, 'recipes/recipes_home.html')
+
+
+def register(request):
+	"""Handle user registration."""
+	if request.user.is_authenticated:
+		return redirect('recipes:home')
+	
+	if request.method == 'POST':
+		form = UserCreationForm(request.POST)
+		if form.is_valid():
+			user = form.save()
+			login(request, user)
+			messages.success(request, f'Welcome, {user.username}! Your account has been created.')
+			return redirect('recipes:home')
+	else:
+		form = UserCreationForm()
+	
+	return render(request, 'auth/register.html', {'form': form})
 
 
 def recipe_list(request):

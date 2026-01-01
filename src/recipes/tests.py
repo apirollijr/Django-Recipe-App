@@ -265,3 +265,93 @@ class RecipeDetailViewTests(TestCase):
 		"""Recipe detail returns 404 for non-existent recipe."""
 		response = self.client.get(reverse('recipes:recipe_detail', args=[9999]))
 		self.assertEqual(response.status_code, 404)
+
+
+class AuthenticationTests(TestCase):
+	def test_login_page_status_code(self):
+		"""Login page returns 200."""
+		response = self.client.get(reverse('login'))
+		self.assertEqual(response.status_code, 200)
+
+	def test_login_page_template(self):
+		"""Login page uses correct template."""
+		response = self.client.get(reverse('login'))
+		self.assertTemplateUsed(response, 'auth/login.html')
+
+	def test_register_page_status_code(self):
+		"""Register page returns 200."""
+		response = self.client.get(reverse('register'))
+		self.assertEqual(response.status_code, 200)
+
+	def test_register_page_template(self):
+		"""Register page uses correct template."""
+		response = self.client.get(reverse('register'))
+		self.assertTemplateUsed(response, 'auth/register.html')
+
+	def test_user_registration(self):
+		"""User can register a new account."""
+		response = self.client.post(reverse('register'), {
+			'username': 'newuser',
+			'password1': 'testpass123!',
+			'password2': 'testpass123!',
+		})
+		self.assertRedirects(response, reverse('recipes:home'))
+		# Check user was created
+		self.assertTrue(User.objects.filter(username='newuser').exists())
+
+	def test_user_registration_auto_login(self):
+		"""User is automatically logged in after registration."""
+		self.client.post(reverse('register'), {
+			'username': 'newuser',
+			'password1': 'testpass123!',
+			'password2': 'testpass123!',
+		})
+		# Check user is authenticated by accessing a page
+		response = self.client.get(reverse('recipes:home'))
+		self.assertTrue(response.context['user'].is_authenticated)
+
+	def test_user_registration_invalid_password(self):
+		"""Registration fails with mismatched passwords."""
+		response = self.client.post(reverse('register'), {
+			'username': 'newuser',
+			'password1': 'testpass123!',
+			'password2': 'differentpass!',
+		})
+		self.assertEqual(response.status_code, 200)
+		self.assertFalse(User.objects.filter(username='newuser').exists())
+
+	def test_user_login(self):
+		"""User can log in with valid credentials."""
+		User.objects.create_user(username='testuser', password='testpass123!')
+		response = self.client.post(reverse('login'), {
+			'username': 'testuser',
+			'password': 'testpass123!',
+		})
+		self.assertRedirects(response, '/')
+
+	def test_user_login_invalid(self):
+		"""Login fails with invalid credentials."""
+		User.objects.create_user(username='testuser', password='testpass123!')
+		response = self.client.post(reverse('login'), {
+			'username': 'testuser',
+			'password': 'wrongpassword',
+		})
+		self.assertEqual(response.status_code, 200)
+		self.assertContains(response, 'Invalid username or password')
+
+	def test_user_logout(self):
+		"""User can log out."""
+		User.objects.create_user(username='testuser', password='testpass123!')
+		self.client.login(username='testuser', password='testpass123!')
+		response = self.client.post(reverse('logout'))
+		self.assertRedirects(response, '/')
+		# Check user is logged out
+		response = self.client.get(reverse('recipes:home'))
+		self.assertFalse(response.context['user'].is_authenticated)
+
+	def test_authenticated_user_redirect_from_register(self):
+		"""Authenticated users are redirected away from register page."""
+		User.objects.create_user(username='testuser', password='testpass123!')
+		self.client.login(username='testuser', password='testpass123!')
+		response = self.client.get(reverse('register'))
+		self.assertRedirects(response, reverse('recipes:home'))
