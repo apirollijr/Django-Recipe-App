@@ -58,7 +58,7 @@
     <!-- Ingredients Grid -->
     <section class="category-grid">
       {% for ingredient in ingredients %}
-        <div class="ingredient-card panel">
+        <a href="{% url 'recipes:recipe_list' %}?ingredient={{ ingredient.pk }}" class="ingredient-card">
           <div class="category-icon">🥗</div>
           <h2 class="category-name">{{ ingredient.name }}</h2>
           {% if ingredient.default_unit %}
@@ -67,7 +67,7 @@
           <div class="category-count">
             Used in {{ ingredient.recipe_count }} recipe{{ ingredient.recipe_count|pluralize }}
           </div>
-        </div>
+        </a>
       {% empty %}
         <div class="empty-state panel">
           <h3>No ingredients found</h3>

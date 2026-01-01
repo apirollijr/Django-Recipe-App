@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.db.models import Q
 from .models import Recipe
 from categories.models import Category
+from ingredients.models import Ingredient
 
 
 def home(request):
@@ -16,7 +17,11 @@ def recipe_list(request):
 	# Get filter parameters
 	search_query = request.GET.get('q', '').strip()
 	category_filter = request.GET.get('category', '')
+	ingredient_filter = request.GET.get('ingredient', '')
 	max_time = request.GET.get('max_time', '')
+
+	# For displaying ingredient name if filtered
+	ingredient_name = ''
 
 	# Apply search filter (title or description)
 	if search_query:
@@ -27,6 +32,17 @@ def recipe_list(request):
 	# Apply category filter
 	if category_filter:
 		recipes = recipes.filter(category__slug=category_filter)
+
+	# Apply ingredient filter
+	if ingredient_filter:
+		try:
+			ingredient_id = int(ingredient_filter)
+			ingredient = Ingredient.objects.filter(pk=ingredient_id).first()
+			if ingredient:
+				ingredient_name = ingredient.name
+				recipes = recipes.filter(recipe_ingredients__ingredient_id=ingredient_id)
+		except ValueError:
+			pass
 
 	# Apply max total time filter
 	if max_time:
@@ -47,6 +63,8 @@ def recipe_list(request):
 		'categories': categories,
 		'search_query': search_query,
 		'category_filter': category_filter,
+		'ingredient_filter': ingredient_filter,
+		'ingredient_name': ingredient_name,
 		'max_time': max_time,
 	}
 	return render(request, 'recipes/recipe_list.html', context)

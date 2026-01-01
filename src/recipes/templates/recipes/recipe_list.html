@@ -61,10 +61,11 @@
     <!-- Results Summary -->
     <div class="results-summary">
       <span>{{ recipes|length }} recipe{{ recipes|length|pluralize }} found</span>
-      {% if search_query or category_filter or max_time %}
+      {% if search_query or category_filter or ingredient_filter or max_time %}
         <span class="filter-tags">
           {% if search_query %}<span class="tag">Search: "{{ search_query }}"</span>{% endif %}
           {% if category_filter %}<span class="tag">Category: {{ category_filter }}</span>{% endif %}
+          {% if ingredient_name %}<span class="tag">Ingredient: {{ ingredient_name }}</span>{% endif %}
           {% if max_time %}<span class="tag">≤ {{ max_time }} min</span>{% endif %}
         </span>
       {% endif %}

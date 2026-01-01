@@ -309,8 +309,10 @@ a.category-card:hover {
   backdrop-filter: blur(8px);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   min-height: 160px;
+  text-decoration: none;
+  color: inherit;
 }
-.ingredient-card:hover {
+a.ingredient-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
   border-color: rgba(167, 139, 250, 0.3);

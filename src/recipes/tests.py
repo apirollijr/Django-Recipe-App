@@ -144,6 +144,59 @@ class RecipeListViewTests(TestCase):
 		self.assertEqual(len(response.context['recipes']), 3)
 
 
+class RecipeListIngredientFilterTests(TestCase):
+	@classmethod
+	def setUpTestData(cls):
+		cls.ingredient1 = Ingredient.objects.create(name="Pasta", default_unit="g")
+		cls.ingredient2 = Ingredient.objects.create(name="Tomatoes", default_unit="pcs")
+		
+		cls.recipe1 = Recipe.objects.create(
+			title="Spaghetti",
+			instructions="Cook pasta",
+		)
+		cls.recipe2 = Recipe.objects.create(
+			title="Salad",
+			instructions="Chop veggies",
+		)
+		cls.recipe3 = Recipe.objects.create(
+			title="Pasta Salad",
+			instructions="Mix it",
+		)
+		
+		# Recipe 1 has pasta only
+		RecipeIngredient.objects.create(recipe=cls.recipe1, ingredient=cls.ingredient1)
+		# Recipe 2 has tomatoes only
+		RecipeIngredient.objects.create(recipe=cls.recipe2, ingredient=cls.ingredient2)
+		# Recipe 3 has both
+		RecipeIngredient.objects.create(recipe=cls.recipe3, ingredient=cls.ingredient1)
+		RecipeIngredient.objects.create(recipe=cls.recipe3, ingredient=cls.ingredient2)
+
+	def test_recipe_list_ingredient_filter(self):
+		"""Ingredient filter returns recipes containing that ingredient."""
+		response = self.client.get(reverse('recipes:recipe_list'), {'ingredient': self.ingredient1.pk})
+		self.assertEqual(len(response.context['recipes']), 2)
+		self.assertEqual(response.context['ingredient_name'], 'Pasta')
+
+	def test_recipe_list_ingredient_filter_single_recipe(self):
+		"""Ingredient filter works when only one recipe matches."""
+		response = self.client.get(reverse('recipes:recipe_list'), {'ingredient': self.ingredient2.pk})
+		titles = [r.title for r in response.context['recipes']]
+		self.assertIn('Salad', titles)
+		self.assertIn('Pasta Salad', titles)
+		self.assertNotIn('Spaghetti', titles)
+
+	def test_recipe_list_invalid_ingredient(self):
+		"""Invalid ingredient ID is ignored gracefully."""
+		response = self.client.get(reverse('recipes:recipe_list'), {'ingredient': 'invalid'})
+		self.assertEqual(response.status_code, 200)
+
+	def test_recipe_list_nonexistent_ingredient(self):
+		"""Non-existent ingredient ID returns all recipes."""
+		response = self.client.get(reverse('recipes:recipe_list'), {'ingredient': 9999})
+		self.assertEqual(response.status_code, 200)
+		self.assertEqual(response.context['ingredient_name'], '')
+
+
 class RecipeDetailViewTests(TestCase):
 	@classmethod
 	def setUpTestData(cls):
