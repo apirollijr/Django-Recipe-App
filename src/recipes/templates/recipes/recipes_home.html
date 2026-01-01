@@ -18,9 +18,9 @@
         </div>
       </div>
       <nav>
-        <a href="#">Recipes</a>
-        <a href="#">Categories</a>
-        <a href="#">Ingredients</a>
+        <a href="{% url 'recipes:recipe_list' %}">Recipes</a>
+        <a href="{% url 'categories:category_list' %}">Categories</a>
+        <a href="{% url 'ingredients:ingredient_list' %}">Ingredients</a>
         <a href="/admin/">Admin</a>
       </nav>
     </header>
@@ -30,7 +30,7 @@
         <h1>Welcome to Your Recipe Hub</h1>
         <p>Discover, organize, and share your favorite dishes. Build your personal cookbook and explore new flavors every day.</p>
         <div class="cta">
-          <a class="btn btn-primary" href="#">Explore Recipes</a>
+          <a class="btn btn-primary" href="{% url 'recipes:recipe_list' %}">Explore Recipes</a>
           <a class="btn btn-secondary" href="#">Create New Recipe</a>
         </div>
       </div>
