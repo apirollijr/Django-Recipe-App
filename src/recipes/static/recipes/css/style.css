@@ -30,6 +30,17 @@ body {
   align-items: center;
   padding: 0 2rem;
 }
+.user-bar-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .5rem;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
 .user-greeting {
   color: var(--muted);
 }
@@ -56,6 +67,23 @@ body {
 .logout-form button {
   cursor: pointer;
 }
+/* Main nav in user bar */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.main-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .9rem;
+  transition: color 0.15s;
+}
+.main-nav a:hover,
+.main-nav a.active {
+  color: var(--accent);
+}
 
 .container {
   max-width: 960px;
@@ -65,7 +93,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
   padding: 1rem 0;
 }
@@ -77,18 +105,6 @@ header {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   box-shadow: 0 10px 30px rgba(167, 139, 250, 0.35);
 }
-nav {
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-nav a {
-  color: var(--muted);
-  text-decoration: none;
-  margin-left: 1rem;
-  font-weight: 600;
-}
-nav a:hover { color: var(--text); }
 
 /* Hamburger menu */
 .hamburger {
@@ -127,7 +143,7 @@ nav a:hover { color: var(--text); }
   .hamburger {
     display: flex;
   }
-  nav {
+  .main-nav {
     position: fixed;
     top: 0;
     right: -100%;
@@ -143,10 +159,10 @@ nav a:hover { color: var(--text); }
     box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
     z-index: 1000;
   }
-  nav.active {
+  .main-nav.active {
     right: 0;
   }
-  nav a {
+  .main-nav a {
     margin: 0;
     padding: 1rem 0;
     width: 100%;
