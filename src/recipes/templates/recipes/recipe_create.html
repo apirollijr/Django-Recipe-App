@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create Recipe - Recipe App</title>
+  <link rel="stylesheet" href="{% static 'recipes/css/style.css' %}">
+  <style>
+    .form-section {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: var(--text-color);
+    }
+    .form-control {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      background: var(--bg-color);
+      color: var(--text-color);
+      font-size: 1rem;
+    }
+    .form-control:focus {
+      outline: none;
+      border-color: var(--accent-color);
+      box-shadow: 0 0 0 3px rgba(79, 140, 255, 0.2);
+    }
+    textarea.form-control {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 600px) {
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+    .form-actions {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .error-list {
+      color: #e74c3c;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .error-list li {
+      list-style: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-bar">
+    <div class="container user-bar-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <strong>Recipe App</strong>
+          <div style="color: var(--muted); font-size: .9rem;">Cook. Share. Enjoy.</div>
+        </div>
+      </div>
+      <div class="user-bar-right">
+        <div class="user-info">
+          {% if user.is_authenticated %}
+            <span class="user-greeting">Hello, <strong>{{ user.username }}</strong></span>
+            <div class="user-links">
+              {% if user.is_staff %}<a href="/admin/">Admin</a>{% endif %}
+              <form method="post" action="{% url 'logout' %}" class="logout-form">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-small btn-secondary">Logout</button>
+              </form>
+            </div>
+          {% else %}
+            <span class="user-greeting">Welcome, Guest</span>
+            <div class="user-links">
+              <a href="{% url 'login' %}" class="btn btn-small btn-secondary">Login</a>
+              <a href="{% url 'register' %}" class="btn btn-small btn-primary">Register</a>
+            </div>
+          {% endif %}
+        </div>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav">
+          <a href="{% url 'recipes:home' %}">Home</a>
+          <a href="{% url 'recipes:recipe_list' %}">Recipes</a>
+          <a href="{% url 'categories:category_list' %}">Categories</a>
+          <a href="{% url 'ingredients:ingredient_list' %}">Ingredients</a>
+        </nav>
+        <div class="nav-overlay"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.main-nav');
+        const overlay = document.querySelector('.nav-overlay');
+        
+        function toggleMenu() {
+          hamburger.classList.toggle('active');
+          nav.classList.toggle('active');
+          overlay.classList.toggle('active');
+          hamburger.setAttribute('aria-expanded', hamburger.classList.contains('active'));
+        }
+        
+        hamburger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        
+        nav.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            if (nav.classList.contains('active')) toggleMenu();
+          });
+        });
+      });
+    </script>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="{% url 'recipes:home' %}">Home</a> &rsaquo;
+      <a href="{% url 'recipes:recipe_list' %}">Recipes</a> &rsaquo;
+      <span>Create Recipe</span>
+    </nav>
+
+    <header>
+      <h1>🍳 Create New Recipe</h1>
+    </header>
+
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+
+    <section class="form-section">
+      <form method="post">
+        {% csrf_token %}
+        
+        <div class="form-group">
+          <label for="id_title">{{ form.title.label }}</label>
+          {{ form.title }}
+          {% if form.title.errors %}
+            <ul class="error-list">
+              {% for error in form.title.errors %}<li>{{ error }}</li>{% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+
+        <div class="form-group">
+          <label for="id_description">{{ form.description.label }}</label>
+          {{ form.description }}
+          {% if form.description.errors %}
+            <ul class="error-list">
+              {% for error in form.description.errors %}<li>{{ error }}</li>{% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+
+        <div class="form-group">
+          <label for="id_category">{{ form.category.label }}</label>
+          {{ form.category }}
+          {% if form.category.errors %}
+            <ul class="error-list">
+              {% for error in form.category.errors %}<li>{{ error }}</li>{% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="id_prep_time_minutes">{{ form.prep_time_minutes.label }}</label>
+            {{ form.prep_time_minutes }}
+            {% if form.prep_time_minutes.errors %}
+              <ul class="error-list">
+                {% for error in form.prep_time_minutes.errors %}<li>{{ error }}</li>{% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+
+          <div class="form-group">
+            <label for="id_cook_time_minutes">{{ form.cook_time_minutes.label }}</label>
+            {{ form.cook_time_minutes }}
+            {% if form.cook_time_minutes.errors %}
+              <ul class="error-list">
+                {% for error in form.cook_time_minutes.errors %}<li>{{ error }}</li>{% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="id_instructions">{{ form.instructions.label }}</label>
+          {{ form.instructions }}
+          {% if form.instructions.errors %}
+            <ul class="error-list">
+              {% for error in form.instructions.errors %}<li>{{ error }}</li>{% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Create Recipe</button>
+          <a href="{% url 'recipes:recipe_list' %}" class="btn btn-secondary">Cancel</a>
+        </div>
+      </form>
+    </section>
+  </div>
+</body>
+</html>

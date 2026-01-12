@@ -134,7 +134,6 @@ LOGOUT_REDIRECT_URL = '/'
 import os
 if 'DYNO' in os.environ:
     DEBUG = False
-
-# Activate Django-Heroku
-import django_heroku
-django_heroku.settings(locals())
+    # Activate Django-Heroku only on Heroku
+    import django_heroku
+    django_heroku.settings(locals())

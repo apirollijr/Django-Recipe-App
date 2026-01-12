@@ -5,7 +5,7 @@ from django.contrib.auth import login
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from .models import Recipe
-from .forms import RecipeSearchForm
+from .forms import RecipeSearchForm, RecipeForm
 from categories.models import Category
 from ingredients.models import Ingredient
 import pandas as pd
@@ -20,6 +20,23 @@ from collections import Counter
 
 def home(request):
 	return render(request, 'recipes/recipes_home.html')
+
+
+@login_required
+def recipe_create(request):
+	"""Handle recipe creation."""
+	if request.method == 'POST':
+		form = RecipeForm(request.POST)
+		if form.is_valid():
+			recipe = form.save(commit=False)
+			recipe.author = request.user
+			recipe.save()
+			messages.success(request, f'Recipe "{recipe.title}" has been created!')
+			return redirect('recipes:recipe_detail', pk=recipe.pk)
+	else:
+		form = RecipeForm()
+	
+	return render(request, 'recipes/recipe_create.html', {'form': form})
 
 
 def register(request):
