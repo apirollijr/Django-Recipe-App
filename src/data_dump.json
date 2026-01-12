@@ -1,0 +1,2038 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-12-24T19:31:20.529Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Anthony",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-12-24T19:31:42.839Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Anthony",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\", \"Staff status\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-12-24T19:33:10.597Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Egg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-12-24T19:33:31.696Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Butter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-12-24T19:33:55.999Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Salt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-12-24T19:34:16.930Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Black Pepper",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-12-24T19:34:38.030Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Scrambled Eggs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"2  Egg\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1 tablespoon Butter\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1 to taste Salt\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1 to taste Black Pepper\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-12-24T19:35:49.829Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Chicken breast",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-12-24T19:36:05.549Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "White Rice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-12-24T19:36:21.305Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Water",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-12-24T19:36:33.276Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Olive Oil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-12-24T19:37:03.849Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Grilled Chicken with Rice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Chicken breast\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  White Rice\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"16  Water\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Olive Oil\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Salt\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Black Pepper\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-12-24T19:37:38.045Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Spaghetti",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-12-24T19:37:52.273Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Marinara Sauce",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-12-24T19:38:27.038Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Grated parmesan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-12-24T19:38:46.900Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Spaghetti Marinara",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"8  Spaghetti\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Marinara Sauce\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Olive Oil\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Salt\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Grated parmesan\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-12-24T19:39:34.464Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Bread",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-12-24T19:39:49.186Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Avocado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-12-24T19:40:10.525Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Avocado Toast",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Bread\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"0.5  Avocado\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Salt\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Black Pepper\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-12-24T19:41:11.272Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Vegetables",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-12-24T19:41:28.324Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Soy Sauce",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-12-24T19:41:44.864Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Garlic",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-12-24T19:41:50.122Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Chicken Stir-Fry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Chicken breast\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Vegetables\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Soy Sauce\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Olive Oil\"}}, {\"added\": {\"name\": \"recipe ingredient\", \"object\": \"1  Garlic\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-01-01T15:42:41.584Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Chicken",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-01-01T15:43:28.861Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Chicken Stir-Fry",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-01-01T15:43:41.733Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Avocado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-01-01T15:43:44.037Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Avocado Toast",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-01-01T15:43:53.402Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Pasta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-01-01T15:43:55.247Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Spaghetti Marinara",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-01-01T15:44:01.579Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Grilled Chicken with Rice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-01-01T15:44:11.626Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Eggs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-01-01T15:44:13.511Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Scrambled Eggs",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$tPqK750nOjnb9yZuOjZzJ6$aEwTKYVaeBz9XCTJeMaA6IKtgv79ccbxHUNDXLeeRO8=",
+    "last_login": "2026-01-12T10:32:50.708Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "apirollijr@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-12-14T13:07:01.742Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "!kAMB6qCqP14NWoBeTwdIeFRG6P5JAcUmx1wCzYZf",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Anthony",
+    "first_name": "Anthony",
+    "last_name": "Pirolli",
+    "email": "apirollijr@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-12-24T19:31:20Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$JzIY7nrDgDPpxOgPuhyr0f$gg0VH0wMuAJFu+/js2jFuPjYSmiVmme43i6Pseka93s=",
+    "last_login": "2026-01-01T17:00:20.359Z",
+    "is_superuser": false,
+    "username": "Testuser",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-01T17:00:19.939Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$JYqLduLXdLpeqSaFcrkMQ2$QEuFcMpqfISb7FzKAwb4KsgGlxxJxcIEh74c6wKNPBc=",
+    "last_login": "2026-01-01T17:11:35.988Z",
+    "is_superuser": false,
+    "username": "Testuser2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-01T17:11:35.417Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9qccxjvym2ju5glx0j0tf5vf86doio6s",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSGx_NYp0-cMCLxscBKBZOzKyt0jJBdJ-2bmHSLEfSth73kNC4mrUOLyu6U4v3IdgJ6xPpqcW93WJcmhyJN2eW-U37fT_TsosZdREzudbWaNrC2DR3BpchpMIu0n5x0ZBQk5RwWKrCPwhpDJekA0Rny-45M3aA:1vfFEA:gEWESDCj5cECAIz3N8IFb3ON4pVKulhKKxlMA0ZpyrU",
+    "expire_date": "2026-01-26T10:32:50.708Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h10aulfgtnt3e9goi6vop9vn0n57q9y8",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHlzbh07zeQgQGpGkhKuzL-uzbpQrf3nHNfLOC21rCNvISZ2JkJdvrdIqZHbjugO7Zb56m3dZkj3xV-0MGvnfLzcrh_BxVH_dZaewtkohACHAAqX2zMxkxEHmX2oJwpmGSKqMElMG6SRRWrSSgDWNj7A8zFN5M:1vUlro:jhML6sEjIT4e65q0HtGLeIbmhfURTAYwfgSbsZkFiKY",
+    "expire_date": "2025-12-28T13:10:28.999Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kf1xk8pyq1ficas7r03sgf29g43lw1k5",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHlzbh07zeQgQGpGkhKuzL-uzbpQrf3nHNfLOC21rCNvISZ2JkJdvrdIqZHbjugO7Zb56m3dZkj3xV-0MGvnfLzcrh_BxVH_dZaewtkohACHAAqX2zMxkxEHmX2oJwpmGSKqMElMG6SRRWrSSgDWNj7A8zFN5M:1vbMDK:_LrsiJba_9chQwKW1PLBV92wWlJkNUeBhBJ_k8QPIXk",
+    "expire_date": "2026-01-15T17:11:54.478Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 1,
+  "fields": {
+    "title": "Scrambled Eggs",
+    "description": "Fluffy scrambled eggs cooked gently with butter and a pinch of salt. A quick, protein-packed meal perfect for breakfast or anytime.",
+    "instructions": "Crack eggs into a bowl and whisk until combined.\r\n\r\nHeat a nonstick pan over medium-low heat and melt the butter.\r\n\r\nPour in the eggs and stir gently with a spatula.\r\n\r\nCook until just set but still soft.\r\n\r\nSeason with salt and pepper and serve.",
+    "author": null,
+    "category": 4,
+    "prep_time_minutes": 0,
+    "cook_time_minutes": 0,
+    "created_at": "2025-12-24T19:34:38.028Z",
+    "updated_at": "2026-01-01T15:44:13.510Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 2,
+  "fields": {
+    "title": "Grilled Chicken with Rice",
+    "description": "Simple grilled chicken breast served with steamed rice. Clean, filling, and versatile.",
+    "instructions": "Season the chicken with olive oil, salt, and pepper.\r\n\r\nHeat a grill pan or skillet over medium heat.\r\n\r\nCook chicken 6�7 minutes per side until fully cooked.\r\n\r\nBring water to a boil, add rice, cover, and simmer 15�18 minutes.\r\n\r\nServe chicken over rice.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 20,
+    "created_at": "2025-12-24T19:37:03.846Z",
+    "updated_at": "2026-01-01T15:44:01.577Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 3,
+  "fields": {
+    "title": "Spaghetti Marinara",
+    "description": "Classic pasta tossed in a simple tomato sauce. Quick and comforting.",
+    "instructions": "Boil salted water and cook spaghetti according to package directions.\r\n\r\nHeat the marinara sauce in a saucepan over low heat.\r\n\r\nDrain pasta and toss with olive oil.\r\n\r\nAdd sauce and mix well.\r\n\r\nTop with parmesan if desired.",
+    "author": null,
+    "category": 3,
+    "prep_time_minutes": 0,
+    "cook_time_minutes": 0,
+    "created_at": "2025-12-24T19:38:46.898Z",
+    "updated_at": "2026-01-01T15:43:55.246Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 4,
+  "fields": {
+    "title": "Avocado Toast",
+    "description": "Crispy toast topped with creamy avocado. Fast, healthy, and filling.",
+    "instructions": "Toast the bread until golden.\r\n\r\nMash avocado in a small bowl.\r\n\r\nSpread avocado on toast.\r\n\r\nSeason with salt and pepper.\r\n\r\nServe immediately.",
+    "author": null,
+    "category": 2,
+    "prep_time_minutes": 0,
+    "cook_time_minutes": 0,
+    "created_at": "2025-12-24T19:40:10.523Z",
+    "updated_at": "2026-01-01T15:43:44.036Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 5,
+  "fields": {
+    "title": "Chicken Stir-Fry",
+    "description": "Quick chicken and vegetable stir-fry cooked in one pan with a light soy sauce.",
+    "instructions": "Heat oil in a pan over medium-high heat.\r\n\r\nAdd chicken and cook until browned.\r\n\r\nAdd vegetables and garlic and stir-fry 3�5 minutes.\r\n\r\nAdd soy sauce and mix well.\r\n\r\nCook until vegetables are tender and serve.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 0,
+    "cook_time_minutes": 0,
+    "created_at": "2025-12-24T19:41:50.119Z",
+    "updated_at": "2026-01-01T15:43:28.860Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 16,
+  "fields": {
+    "title": "Pancakes",
+    "description": "Fluffy homemade pancakes perfect for weekend breakfast",
+    "instructions": "1. Mix flour, eggs, milk, and sugar in a bowl.\\n2. Heat a pan with butter over medium heat.\\n3. Pour batter and cook until bubbles form.\\n4. Flip and cook other side until golden.\\n5. Serve with maple syrup and butter.",
+    "author": 1,
+    "category": 5,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "created_at": "2026-01-12T12:00:36.491Z",
+    "updated_at": "2026-01-12T12:00:36.491Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 17,
+  "fields": {
+    "title": "Caesar Salad",
+    "description": "Classic Caesar salad with homemade dressing and crispy croutons",
+    "instructions": "1. Wash and chop romaine lettuce into bite-sized pieces.\\n2. Make dressing by mixing mayo, lemon juice, garlic, and parmesan.\\n3. Toss lettuce with dressing until coated.\\n4. Add croutons and extra parmesan on top.\\n5. Season with pepper and serve immediately.",
+    "author": 1,
+    "category": 6,
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 0,
+    "created_at": "2026-01-12T12:00:36.514Z",
+    "updated_at": "2026-01-12T12:00:36.514Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 18,
+  "fields": {
+    "title": "Beef Tacos",
+    "description": "Seasoned ground beef tacos with fresh toppings",
+    "instructions": "1. Brown ground beef in a large pan over medium-high heat.\\n2. Add taco seasoning and water, stir well.\\n3. Simmer for 5 minutes until thickened.\\n4. Warm taco shells in oven.\\n5. Fill shells with beef, lettuce, cheese, and salsa.",
+    "author": 1,
+    "category": 7,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "created_at": "2026-01-12T12:00:36.533Z",
+    "updated_at": "2026-01-12T12:00:36.533Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 19,
+  "fields": {
+    "title": "Chocolate Chip Cookies",
+    "description": "Chewy homemade chocolate chip cookies",
+    "instructions": "1. Cream butter and sugars until fluffy.\\n2. Beat in eggs and vanilla extract.\\n3. Mix in flour, baking soda, and salt.\\n4. Fold in chocolate chips.\\n5. Bake at 375F for 9-11 minutes until edges are golden.",
+    "author": 1,
+    "category": 8,
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 10,
+    "created_at": "2026-01-12T12:00:36.544Z",
+    "updated_at": "2026-01-12T12:00:36.544Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 20,
+  "fields": {
+    "title": "Grilled Cheese Sandwich",
+    "description": "Classic crispy grilled cheese sandwich",
+    "instructions": "1. Butter one side of each bread slice.\\n2. Place cheese between bread, butter sides out.\\n3. Grill in pan over medium heat until golden.\\n4. Flip carefully and grill other side.\\n5. Cut diagonally and serve hot.",
+    "author": 1,
+    "category": 6,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 8,
+    "created_at": "2026-01-12T12:00:36.569Z",
+    "updated_at": "2026-01-12T12:00:36.569Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 21,
+  "fields": {
+    "title": "Tomato Soup",
+    "description": "Creamy homemade tomato soup perfect with grilled cheese",
+    "instructions": "1. Saute diced onion and garlic in olive oil.\\n2. Add canned tomatoes and chicken broth.\\n3. Simmer for 20 minutes.\\n4. Blend until smooth with immersion blender.\\n5. Stir in cream, season with salt and pepper.",
+    "author": 1,
+    "category": 6,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "created_at": "2026-01-12T12:00:36.579Z",
+    "updated_at": "2026-01-12T12:00:36.579Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 22,
+  "fields": {
+    "title": "Banana Smoothie",
+    "description": "Healthy and creamy banana smoothie",
+    "instructions": "1. Add banana, milk, and yogurt to blender.\\n2. Add honey and a handful of ice.\\n3. Blend until completely smooth.\\n4. Pour into a tall glass.\\n5. Serve immediately.",
+    "author": 1,
+    "category": 10,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 0,
+    "created_at": "2026-01-12T12:00:36.595Z",
+    "updated_at": "2026-01-12T12:00:36.595Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 23,
+  "fields": {
+    "title": "Garlic Bread",
+    "description": "Crispy buttery garlic bread",
+    "instructions": "1. Mix softened butter with minced garlic and parsley.\\n2. Slice baguette in half lengthwise.\\n3. Spread garlic butter generously on bread.\\n4. Broil for 3-5 minutes until golden and crispy.\\n5. Slice and serve warm.",
+    "author": 1,
+    "category": 9,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 5,
+    "created_at": "2026-01-12T12:00:36.610Z",
+    "updated_at": "2026-01-12T12:00:36.610Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 24,
+  "fields": {
+    "title": "Cheese Omelette",
+    "description": "Fluffy cheese omelette for breakfast",
+    "instructions": "1. Whisk eggs with salt and pepper.\\n2. Heat butter in non-stick pan over medium heat.\\n3. Pour eggs and let cook until edges set.\\n4. Add shredded cheese to one half.\\n5. Fold omelette and serve immediately.",
+    "author": 1,
+    "category": 5,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 5,
+    "created_at": "2026-01-12T12:00:36.624Z",
+    "updated_at": "2026-01-12T12:00:36.624Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 25,
+  "fields": {
+    "title": "Chicken Quesadilla",
+    "description": "Cheesy chicken quesadilla with crispy tortilla",
+    "instructions": "1. Shred or dice cooked chicken.\\n2. Place tortilla in dry pan over medium heat.\\n3. Add cheese and chicken to half of tortilla.\\n4. Fold tortilla and cook until crispy on both sides.\\n5. Cut into wedges and serve with salsa.",
+    "author": 1,
+    "category": 7,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "created_at": "2026-01-12T12:00:36.635Z",
+    "updated_at": "2026-01-12T12:00:36.635Z"
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 1,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 1,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 2,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 2,
+    "quantity": "1.00",
+    "unit": "tablespoon",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 3,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 3,
+    "quantity": "1.00",
+    "unit": "to taste",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 4,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 4,
+    "quantity": "1.00",
+    "unit": "to taste",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 5,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 5,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 6,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 6,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 7,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 7,
+    "quantity": "16.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 8,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 8,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 9,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 3,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 10,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 4,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 11,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 9,
+    "quantity": "8.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 12,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 10,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 13,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 8,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 14,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 3,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 15,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 11,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 16,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 12,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 17,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 13,
+    "quantity": "0.50",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 18,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 3,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 19,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 4,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 20,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 5,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 21,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 14,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 22,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 15,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 23,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 8,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 24,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 16,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 25,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 17,
+    "quantity": "2.00",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 26,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 18,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 27,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 19,
+    "quantity": "1.50",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 28,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 20,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 29,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 2,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 30,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 47,
+    "quantity": null,
+    "unit": "to serve",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 31,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 38,
+    "quantity": "1.00",
+    "unit": "head",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 32,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 37,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 33,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 39,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 34,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 40,
+    "quantity": "0.25",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 35,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 41,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 36,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 16,
+    "quantity": "2.00",
+    "unit": "cloves",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 37,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 24,
+    "quantity": "1.00",
+    "unit": "lb",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 38,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 32,
+    "quantity": "1.00",
+    "unit": "packet",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 39,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 31,
+    "quantity": "8.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 40,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 27,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 41,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 25,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 42,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 33,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 43,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 2,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 44,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 20,
+    "quantity": "0.75",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 45,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 18,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 46,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 35,
+    "quantity": "1.00",
+    "unit": "tsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 47,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 17,
+    "quantity": "2.25",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 48,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 36,
+    "quantity": "1.00",
+    "unit": "tsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 49,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 34,
+    "quantity": "2.00",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 50,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 12,
+    "quantity": "2.00",
+    "unit": "slices",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 51,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 25,
+    "quantity": "2.00",
+    "unit": "slices",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 52,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 2,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 53,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 26,
+    "quantity": "2.00",
+    "unit": "cans",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 54,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 22,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 55,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 16,
+    "quantity": "3.00",
+    "unit": "cloves",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 56,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 42,
+    "quantity": "2.00",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 57,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 43,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 58,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 8,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 59,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 28,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 60,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 19,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 61,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 30,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 62,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 29,
+    "quantity": "1.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 63,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 48,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 64,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 2,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 65,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 16,
+    "quantity": "4.00",
+    "unit": "cloves",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 66,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 3,
+    "quantity": null,
+    "unit": "pinch",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 67,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 18,
+    "quantity": "3.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 68,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 25,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 69,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 2,
+    "quantity": "1.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 70,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 3,
+    "quantity": null,
+    "unit": "pinch",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 71,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 21,
+    "quantity": null,
+    "unit": "pinch",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 72,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 23,
+    "quantity": "1.00",
+    "unit": "cup shredded",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 73,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 31,
+    "quantity": "2.00",
+    "unit": "large",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 74,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 25,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 75,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 33,
+    "quantity": "0.25",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 1,
+  "fields": {
+    "name": "Egg",
+    "default_unit": "1"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 2,
+  "fields": {
+    "name": "Butter",
+    "default_unit": "1 tablespoon"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 3,
+  "fields": {
+    "name": "Salt",
+    "default_unit": "tsp"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 4,
+  "fields": {
+    "name": "Black Pepper",
+    "default_unit": "tsp"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 5,
+  "fields": {
+    "name": "Chicken breast",
+    "default_unit": "1 whole breast"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 6,
+  "fields": {
+    "name": "White Rice",
+    "default_unit": "cup"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 7,
+  "fields": {
+    "name": "Water",
+    "default_unit": "oz"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 8,
+  "fields": {
+    "name": "Olive Oil",
+    "default_unit": "oz"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 9,
+  "fields": {
+    "name": "Spaghetti",
+    "default_unit": "oz"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 10,
+  "fields": {
+    "name": "Marinara Sauce",
+    "default_unit": "cup"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 11,
+  "fields": {
+    "name": "Grated parmesan",
+    "default_unit": "cup"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 12,
+  "fields": {
+    "name": "Bread",
+    "default_unit": "slice"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 13,
+  "fields": {
+    "name": "Avocado",
+    "default_unit": "1 whole"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 14,
+  "fields": {
+    "name": "Vegetables",
+    "default_unit": "cup"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 15,
+  "fields": {
+    "name": "Soy Sauce",
+    "default_unit": "tbsp"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 16,
+  "fields": {
+    "name": "Garlic",
+    "default_unit": "Clove"
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 17,
+  "fields": {
+    "name": "Flour",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 18,
+  "fields": {
+    "name": "Eggs",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 19,
+  "fields": {
+    "name": "Milk",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 20,
+  "fields": {
+    "name": "Sugar",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 21,
+  "fields": {
+    "name": "Pepper",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 22,
+  "fields": {
+    "name": "Onion",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 23,
+  "fields": {
+    "name": "Chicken Breast",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 24,
+  "fields": {
+    "name": "Ground Beef",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 25,
+  "fields": {
+    "name": "Cheese",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 26,
+  "fields": {
+    "name": "Tomatoes",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 27,
+  "fields": {
+    "name": "Lettuce",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 28,
+  "fields": {
+    "name": "Banana",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 29,
+  "fields": {
+    "name": "Honey",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 30,
+  "fields": {
+    "name": "Yogurt",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 31,
+  "fields": {
+    "name": "Tortilla",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 32,
+  "fields": {
+    "name": "Taco Seasoning",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 33,
+  "fields": {
+    "name": "Salsa",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 34,
+  "fields": {
+    "name": "Chocolate Chips",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 35,
+  "fields": {
+    "name": "Vanilla",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 36,
+  "fields": {
+    "name": "Baking Soda",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 37,
+  "fields": {
+    "name": "Parmesan",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 38,
+  "fields": {
+    "name": "Romaine Lettuce",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 39,
+  "fields": {
+    "name": "Croutons",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 40,
+  "fields": {
+    "name": "Mayo",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 41,
+  "fields": {
+    "name": "Lemon",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 42,
+  "fields": {
+    "name": "Chicken Broth",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 43,
+  "fields": {
+    "name": "Cream",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 44,
+  "fields": {
+    "name": "Rice",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 45,
+  "fields": {
+    "name": "Bell Pepper",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 46,
+  "fields": {
+    "name": "Pasta",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 47,
+  "fields": {
+    "name": "Maple Syrup",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 48,
+  "fields": {
+    "name": "Baguette",
+    "default_unit": ""
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 1,
+  "fields": {
+    "name": "Chicken",
+    "slug": "chicken",
+    "created_at": "2026-01-01T15:42:41.582Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 2,
+  "fields": {
+    "name": "Avocado",
+    "slug": "Avocado",
+    "created_at": "2026-01-01T15:43:41.732Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 3,
+  "fields": {
+    "name": "Pasta",
+    "slug": "pasta",
+    "created_at": "2026-01-01T15:43:53.401Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 4,
+  "fields": {
+    "name": "Eggs",
+    "slug": "egg",
+    "created_at": "2026-01-01T15:44:11.625Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 5,
+  "fields": {
+    "name": "Breakfast",
+    "slug": "breakfast",
+    "created_at": "2026-01-12T11:56:05.184Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 6,
+  "fields": {
+    "name": "Lunch",
+    "slug": "lunch",
+    "created_at": "2026-01-12T12:00:36.370Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 7,
+  "fields": {
+    "name": "Dinner",
+    "slug": "dinner",
+    "created_at": "2026-01-12T12:00:36.374Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 8,
+  "fields": {
+    "name": "Dessert",
+    "slug": "dessert",
+    "created_at": "2026-01-12T12:00:36.377Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 9,
+  "fields": {
+    "name": "Snacks",
+    "slug": "snacks",
+    "created_at": "2026-01-12T12:00:36.380Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 10,
+  "fields": {
+    "name": "Beverages",
+    "slug": "beverages",
+    "created_at": "2026-01-12T12:00:36.382Z"
+  }
+}
+]

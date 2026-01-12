@@ -1,6 +1,50 @@
 from django import forms
 from categories.models import Category
 from ingredients.models import Ingredient
+from .models import Recipe
+
+
+class RecipeForm(forms.ModelForm):
+    """Form for creating and editing recipes."""
+    
+    class Meta:
+        model = Recipe
+        fields = ['title', 'description', 'instructions', 'category', 'prep_time_minutes', 'cook_time_minutes']
+        widgets = {
+            'title': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Enter recipe title'
+            }),
+            'description': forms.Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Brief description of your recipe',
+                'rows': 3
+            }),
+            'instructions': forms.Textarea(attrs={
+                'class': 'form-control',
+                'placeholder': 'Step-by-step instructions',
+                'rows': 6
+            }),
+            'category': forms.Select(attrs={'class': 'form-control'}),
+            'prep_time_minutes': forms.NumberInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Prep time in minutes',
+                'min': '0'
+            }),
+            'cook_time_minutes': forms.NumberInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Cook time in minutes',
+                'min': '0'
+            }),
+        }
+        labels = {
+            'title': 'Recipe Title',
+            'description': 'Description',
+            'instructions': 'Instructions',
+            'category': 'Category',
+            'prep_time_minutes': 'Prep Time (minutes)',
+            'cook_time_minutes': 'Cook Time (minutes)',
+        }
 
 
 class RecipeSearchForm(forms.Form):
