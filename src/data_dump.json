@@ -1,4 +1,4 @@
-[
+ï»¿[
 {
   "model": "admin.logentry",
   "pk": 1,
@@ -532,7 +532,7 @@
   "fields": {
     "title": "Grilled Chicken with Rice",
     "description": "Simple grilled chicken breast served with steamed rice. Clean, filling, and versatile.",
-    "instructions": "Season the chicken with olive oil, salt, and pepper.\r\n\r\nHeat a grill pan or skillet over medium heat.\r\n\r\nCook chicken 6–7 minutes per side until fully cooked.\r\n\r\nBring water to a boil, add rice, cover, and simmer 15–18 minutes.\r\n\r\nServe chicken over rice.",
+    "instructions": "Season the chicken with olive oil, salt, and pepper.\r\n\r\nHeat a grill pan or skillet over medium heat.\r\n\r\nCook chicken 6ï¿½7 minutes per side until fully cooked.\r\n\r\nBring water to a boil, add rice, cover, and simmer 15ï¿½18 minutes.\r\n\r\nServe chicken over rice.",
     "author": null,
     "category": 1,
     "prep_time_minutes": 5,
@@ -577,7 +577,7 @@
   "fields": {
     "title": "Chicken Stir-Fry",
     "description": "Quick chicken and vegetable stir-fry cooked in one pan with a light soy sauce.",
-    "instructions": "Heat oil in a pan over medium-high heat.\r\n\r\nAdd chicken and cook until browned.\r\n\r\nAdd vegetables and garlic and stir-fry 3–5 minutes.\r\n\r\nAdd soy sauce and mix well.\r\n\r\nCook until vegetables are tender and serve.",
+    "instructions": "Heat oil in a pan over medium-high heat.\r\n\r\nAdd chicken and cook until browned.\r\n\r\nAdd vegetables and garlic and stir-fry 3ï¿½5 minutes.\r\n\r\nAdd soy sauce and mix well.\r\n\r\nCook until vegetables are tender and serve.",
     "author": null,
     "category": 1,
     "prep_time_minutes": 0,
