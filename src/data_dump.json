@@ -587,6 +587,156 @@
   }
 },
 {
+  "model": "recipes.recipe",
+  "pk": 6,
+  "fields": {
+    "title": "Pancakes",
+    "description": "Fluffy homemade pancakes",
+    "instructions": "1. Mix flour, eggs, milk, and sugar.\n2. Heat a pan with butter.\n3. Pour batter and cook until golden.\n4. Flip and cook other side.\n5. Serve with maple syrup.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 15,
+    "created_at": "2026-01-12T11:56:21.840Z",
+    "updated_at": "2026-01-12T11:56:21.840Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 7,
+  "fields": {
+    "title": "Caesar Salad",
+    "description": "Classic Caesar salad with croutons",
+    "instructions": "1. Wash and chop romaine lettuce.\n2. Make dressing with mayo, lemon, garlic, parmesan.\n3. Toss lettuce with dressing.\n4. Add croutons and parmesan.\n5. Serve immediately.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 0,
+    "created_at": "2026-01-12T11:56:21.843Z",
+    "updated_at": "2026-01-12T11:56:21.843Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 8,
+  "fields": {
+    "title": "Beef Tacos",
+    "description": "Seasoned ground beef tacos",
+    "instructions": "1. Brown ground beef in a pan.\n2. Add taco seasoning and water.\n3. Simmer until thickened.\n4. Warm taco shells.\n5. Fill with beef, lettuce, cheese, salsa.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 20,
+    "created_at": "2026-01-12T11:56:21.846Z",
+    "updated_at": "2026-01-12T11:56:21.846Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 9,
+  "fields": {
+    "title": "Chocolate Chip Cookies",
+    "description": "Chewy chocolate chip cookies",
+    "instructions": "1. Cream butter and sugars.\n2. Add eggs and vanilla.\n3. Mix in flour, baking soda, salt.\n4. Fold in chocolate chips.\n5. Bake at 375F for 10 minutes.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 15,
+    "cook_time_minutes": 10,
+    "created_at": "2026-01-12T11:56:21.849Z",
+    "updated_at": "2026-01-12T11:56:21.849Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 10,
+  "fields": {
+    "title": "Grilled Cheese Sandwich",
+    "description": "Classic grilled cheese",
+    "instructions": "1. Butter two slices of bread.\n2. Place cheese between bread.\n3. Grill in pan until golden.\n4. Flip and grill other side.\n5. Cut diagonally and serve.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 8,
+    "created_at": "2026-01-12T11:56:21.851Z",
+    "updated_at": "2026-01-12T11:56:21.851Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 11,
+  "fields": {
+    "title": "Tomato Soup",
+    "description": "Creamy homemade tomato soup",
+    "instructions": "1. Saute onion and garlic.\n2. Add canned tomatoes and broth.\n3. Simmer for 20 minutes.\n4. Blend until smooth.\n5. Stir in cream and season.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 25,
+    "created_at": "2026-01-12T11:56:21.854Z",
+    "updated_at": "2026-01-12T11:56:21.854Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 12,
+  "fields": {
+    "title": "Banana Smoothie",
+    "description": "Healthy banana smoothie",
+    "instructions": "1. Add banana, milk, yogurt to blender.\n2. Add honey and ice.\n3. Blend until smooth.\n4. Pour into glass.\n5. Serve immediately.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 0,
+    "created_at": "2026-01-12T11:56:21.857Z",
+    "updated_at": "2026-01-12T11:56:21.857Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 13,
+  "fields": {
+    "title": "Garlic Bread",
+    "description": "Crispy garlic bread",
+    "instructions": "1. Mix softened butter with minced garlic.\n2. Slice baguette in half.\n3. Spread garlic butter on bread.\n4. Broil until golden and crispy.\n5. Slice and serve warm.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 5,
+    "created_at": "2026-01-12T11:56:21.860Z",
+    "updated_at": "2026-01-12T11:56:21.860Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 14,
+  "fields": {
+    "title": "Omelette",
+    "description": "Fluffy cheese omelette",
+    "instructions": "1. Whisk eggs with salt and pepper.\n2. Heat butter in pan.\n3. Pour eggs and cook until edges set.\n4. Add cheese and fillings.\n5. Fold and serve.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 5,
+    "cook_time_minutes": 5,
+    "created_at": "2026-01-12T11:56:21.863Z",
+    "updated_at": "2026-01-12T11:56:21.863Z"
+  }
+},
+{
+  "model": "recipes.recipe",
+  "pk": 15,
+  "fields": {
+    "title": "Chicken Quesadilla",
+    "description": "Cheesy chicken quesadilla",
+    "instructions": "1. Shred cooked chicken.\n2. Place tortilla in pan.\n3. Add cheese and chicken.\n4. Top with another tortilla.\n5. Cook until crispy, flip, serve with salsa.",
+    "author": null,
+    "category": 1,
+    "prep_time_minutes": 10,
+    "cook_time_minutes": 10,
+    "created_at": "2026-01-12T11:56:21.865Z",
+    "updated_at": "2026-01-12T11:56:21.865Z"
+  }
+},
+{
   "model": "recipes.recipeingredient",
   "pk": 1,
   "fields": {
@@ -1012,6 +1162,15 @@
     "name": "Eggs",
     "slug": "egg",
     "created_at": "2026-01-01T15:44:11.625Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 5,
+  "fields": {
+    "name": "Breakfast",
+    "slug": "",
+    "created_at": "2026-01-12T11:56:05.184Z"
   }
 }
 ]
