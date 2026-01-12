@@ -588,152 +588,152 @@
 },
 {
   "model": "recipes.recipe",
-  "pk": 6,
+  "pk": 16,
   "fields": {
     "title": "Pancakes",
-    "description": "Fluffy homemade pancakes",
-    "instructions": "1. Mix flour, eggs, milk, and sugar.\n2. Heat a pan with butter.\n3. Pour batter and cook until golden.\n4. Flip and cook other side.\n5. Serve with maple syrup.",
-    "author": null,
-    "category": 1,
+    "description": "Fluffy homemade pancakes perfect for weekend breakfast",
+    "instructions": "1. Mix flour, eggs, milk, and sugar in a bowl.\\n2. Heat a pan with butter over medium heat.\\n3. Pour batter and cook until bubbles form.\\n4. Flip and cook other side until golden.\\n5. Serve with maple syrup and butter.",
+    "author": 1,
+    "category": 5,
     "prep_time_minutes": 10,
     "cook_time_minutes": 15,
-    "created_at": "2026-01-12T11:56:21.840Z",
-    "updated_at": "2026-01-12T11:56:21.840Z"
+    "created_at": "2026-01-12T12:00:36.491Z",
+    "updated_at": "2026-01-12T12:00:36.491Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 7,
+  "pk": 17,
   "fields": {
     "title": "Caesar Salad",
-    "description": "Classic Caesar salad with croutons",
-    "instructions": "1. Wash and chop romaine lettuce.\n2. Make dressing with mayo, lemon, garlic, parmesan.\n3. Toss lettuce with dressing.\n4. Add croutons and parmesan.\n5. Serve immediately.",
-    "author": null,
-    "category": 1,
+    "description": "Classic Caesar salad with homemade dressing and crispy croutons",
+    "instructions": "1. Wash and chop romaine lettuce into bite-sized pieces.\\n2. Make dressing by mixing mayo, lemon juice, garlic, and parmesan.\\n3. Toss lettuce with dressing until coated.\\n4. Add croutons and extra parmesan on top.\\n5. Season with pepper and serve immediately.",
+    "author": 1,
+    "category": 6,
     "prep_time_minutes": 15,
     "cook_time_minutes": 0,
-    "created_at": "2026-01-12T11:56:21.843Z",
-    "updated_at": "2026-01-12T11:56:21.843Z"
+    "created_at": "2026-01-12T12:00:36.514Z",
+    "updated_at": "2026-01-12T12:00:36.514Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 8,
+  "pk": 18,
   "fields": {
     "title": "Beef Tacos",
-    "description": "Seasoned ground beef tacos",
-    "instructions": "1. Brown ground beef in a pan.\n2. Add taco seasoning and water.\n3. Simmer until thickened.\n4. Warm taco shells.\n5. Fill with beef, lettuce, cheese, salsa.",
-    "author": null,
-    "category": 1,
+    "description": "Seasoned ground beef tacos with fresh toppings",
+    "instructions": "1. Brown ground beef in a large pan over medium-high heat.\\n2. Add taco seasoning and water, stir well.\\n3. Simmer for 5 minutes until thickened.\\n4. Warm taco shells in oven.\\n5. Fill shells with beef, lettuce, cheese, and salsa.",
+    "author": 1,
+    "category": 7,
     "prep_time_minutes": 10,
     "cook_time_minutes": 20,
-    "created_at": "2026-01-12T11:56:21.846Z",
-    "updated_at": "2026-01-12T11:56:21.846Z"
+    "created_at": "2026-01-12T12:00:36.533Z",
+    "updated_at": "2026-01-12T12:00:36.533Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 9,
+  "pk": 19,
   "fields": {
     "title": "Chocolate Chip Cookies",
-    "description": "Chewy chocolate chip cookies",
-    "instructions": "1. Cream butter and sugars.\n2. Add eggs and vanilla.\n3. Mix in flour, baking soda, salt.\n4. Fold in chocolate chips.\n5. Bake at 375F for 10 minutes.",
-    "author": null,
-    "category": 1,
+    "description": "Chewy homemade chocolate chip cookies",
+    "instructions": "1. Cream butter and sugars until fluffy.\\n2. Beat in eggs and vanilla extract.\\n3. Mix in flour, baking soda, and salt.\\n4. Fold in chocolate chips.\\n5. Bake at 375F for 9-11 minutes until edges are golden.",
+    "author": 1,
+    "category": 8,
     "prep_time_minutes": 15,
     "cook_time_minutes": 10,
-    "created_at": "2026-01-12T11:56:21.849Z",
-    "updated_at": "2026-01-12T11:56:21.849Z"
+    "created_at": "2026-01-12T12:00:36.544Z",
+    "updated_at": "2026-01-12T12:00:36.544Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 10,
+  "pk": 20,
   "fields": {
     "title": "Grilled Cheese Sandwich",
-    "description": "Classic grilled cheese",
-    "instructions": "1. Butter two slices of bread.\n2. Place cheese between bread.\n3. Grill in pan until golden.\n4. Flip and grill other side.\n5. Cut diagonally and serve.",
-    "author": null,
-    "category": 1,
+    "description": "Classic crispy grilled cheese sandwich",
+    "instructions": "1. Butter one side of each bread slice.\\n2. Place cheese between bread, butter sides out.\\n3. Grill in pan over medium heat until golden.\\n4. Flip carefully and grill other side.\\n5. Cut diagonally and serve hot.",
+    "author": 1,
+    "category": 6,
     "prep_time_minutes": 5,
     "cook_time_minutes": 8,
-    "created_at": "2026-01-12T11:56:21.851Z",
-    "updated_at": "2026-01-12T11:56:21.851Z"
+    "created_at": "2026-01-12T12:00:36.569Z",
+    "updated_at": "2026-01-12T12:00:36.569Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 11,
+  "pk": 21,
   "fields": {
     "title": "Tomato Soup",
-    "description": "Creamy homemade tomato soup",
-    "instructions": "1. Saute onion and garlic.\n2. Add canned tomatoes and broth.\n3. Simmer for 20 minutes.\n4. Blend until smooth.\n5. Stir in cream and season.",
-    "author": null,
-    "category": 1,
+    "description": "Creamy homemade tomato soup perfect with grilled cheese",
+    "instructions": "1. Saute diced onion and garlic in olive oil.\\n2. Add canned tomatoes and chicken broth.\\n3. Simmer for 20 minutes.\\n4. Blend until smooth with immersion blender.\\n5. Stir in cream, season with salt and pepper.",
+    "author": 1,
+    "category": 6,
     "prep_time_minutes": 10,
     "cook_time_minutes": 25,
-    "created_at": "2026-01-12T11:56:21.854Z",
-    "updated_at": "2026-01-12T11:56:21.854Z"
+    "created_at": "2026-01-12T12:00:36.579Z",
+    "updated_at": "2026-01-12T12:00:36.579Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 12,
+  "pk": 22,
   "fields": {
     "title": "Banana Smoothie",
-    "description": "Healthy banana smoothie",
-    "instructions": "1. Add banana, milk, yogurt to blender.\n2. Add honey and ice.\n3. Blend until smooth.\n4. Pour into glass.\n5. Serve immediately.",
-    "author": null,
-    "category": 1,
+    "description": "Healthy and creamy banana smoothie",
+    "instructions": "1. Add banana, milk, and yogurt to blender.\\n2. Add honey and a handful of ice.\\n3. Blend until completely smooth.\\n4. Pour into a tall glass.\\n5. Serve immediately.",
+    "author": 1,
+    "category": 10,
     "prep_time_minutes": 5,
     "cook_time_minutes": 0,
-    "created_at": "2026-01-12T11:56:21.857Z",
-    "updated_at": "2026-01-12T11:56:21.857Z"
+    "created_at": "2026-01-12T12:00:36.595Z",
+    "updated_at": "2026-01-12T12:00:36.595Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 13,
+  "pk": 23,
   "fields": {
     "title": "Garlic Bread",
-    "description": "Crispy garlic bread",
-    "instructions": "1. Mix softened butter with minced garlic.\n2. Slice baguette in half.\n3. Spread garlic butter on bread.\n4. Broil until golden and crispy.\n5. Slice and serve warm.",
-    "author": null,
-    "category": 1,
+    "description": "Crispy buttery garlic bread",
+    "instructions": "1. Mix softened butter with minced garlic and parsley.\\n2. Slice baguette in half lengthwise.\\n3. Spread garlic butter generously on bread.\\n4. Broil for 3-5 minutes until golden and crispy.\\n5. Slice and serve warm.",
+    "author": 1,
+    "category": 9,
     "prep_time_minutes": 5,
     "cook_time_minutes": 5,
-    "created_at": "2026-01-12T11:56:21.860Z",
-    "updated_at": "2026-01-12T11:56:21.860Z"
+    "created_at": "2026-01-12T12:00:36.610Z",
+    "updated_at": "2026-01-12T12:00:36.610Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 14,
+  "pk": 24,
   "fields": {
-    "title": "Omelette",
-    "description": "Fluffy cheese omelette",
-    "instructions": "1. Whisk eggs with salt and pepper.\n2. Heat butter in pan.\n3. Pour eggs and cook until edges set.\n4. Add cheese and fillings.\n5. Fold and serve.",
-    "author": null,
-    "category": 1,
+    "title": "Cheese Omelette",
+    "description": "Fluffy cheese omelette for breakfast",
+    "instructions": "1. Whisk eggs with salt and pepper.\\n2. Heat butter in non-stick pan over medium heat.\\n3. Pour eggs and let cook until edges set.\\n4. Add shredded cheese to one half.\\n5. Fold omelette and serve immediately.",
+    "author": 1,
+    "category": 5,
     "prep_time_minutes": 5,
     "cook_time_minutes": 5,
-    "created_at": "2026-01-12T11:56:21.863Z",
-    "updated_at": "2026-01-12T11:56:21.863Z"
+    "created_at": "2026-01-12T12:00:36.624Z",
+    "updated_at": "2026-01-12T12:00:36.624Z"
   }
 },
 {
   "model": "recipes.recipe",
-  "pk": 15,
+  "pk": 25,
   "fields": {
     "title": "Chicken Quesadilla",
-    "description": "Cheesy chicken quesadilla",
-    "instructions": "1. Shred cooked chicken.\n2. Place tortilla in pan.\n3. Add cheese and chicken.\n4. Top with another tortilla.\n5. Cook until crispy, flip, serve with salsa.",
-    "author": null,
-    "category": 1,
+    "description": "Cheesy chicken quesadilla with crispy tortilla",
+    "instructions": "1. Shred or dice cooked chicken.\\n2. Place tortilla in dry pan over medium heat.\\n3. Add cheese and chicken to half of tortilla.\\n4. Fold tortilla and cook until crispy on both sides.\\n5. Cut into wedges and serve with salsa.",
+    "author": 1,
+    "category": 7,
     "prep_time_minutes": 10,
     "cook_time_minutes": 10,
-    "created_at": "2026-01-12T11:56:21.865Z",
-    "updated_at": "2026-01-12T11:56:21.865Z"
+    "created_at": "2026-01-12T12:00:36.635Z",
+    "updated_at": "2026-01-12T12:00:36.635Z"
   }
 },
 {
@@ -1001,6 +1001,567 @@
   }
 },
 {
+  "model": "recipes.recipeingredient",
+  "pk": 25,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 17,
+    "quantity": "2.00",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 26,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 18,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 27,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 19,
+    "quantity": "1.50",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 28,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 20,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 29,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 2,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 30,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 47,
+    "quantity": null,
+    "unit": "to serve",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 31,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 38,
+    "quantity": "1.00",
+    "unit": "head",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 32,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 37,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 33,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 39,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 34,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 40,
+    "quantity": "0.25",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 35,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 41,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 36,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 16,
+    "quantity": "2.00",
+    "unit": "cloves",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 37,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 24,
+    "quantity": "1.00",
+    "unit": "lb",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 38,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 32,
+    "quantity": "1.00",
+    "unit": "packet",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 39,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 31,
+    "quantity": "8.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 40,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 27,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 41,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 25,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 42,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 33,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 43,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 2,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 44,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 20,
+    "quantity": "0.75",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 45,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 18,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 46,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 35,
+    "quantity": "1.00",
+    "unit": "tsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 47,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 17,
+    "quantity": "2.25",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 48,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 36,
+    "quantity": "1.00",
+    "unit": "tsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 49,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 34,
+    "quantity": "2.00",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 50,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 12,
+    "quantity": "2.00",
+    "unit": "slices",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 51,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 25,
+    "quantity": "2.00",
+    "unit": "slices",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 52,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 2,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 53,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 26,
+    "quantity": "2.00",
+    "unit": "cans",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 54,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 22,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 55,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 16,
+    "quantity": "3.00",
+    "unit": "cloves",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 56,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 42,
+    "quantity": "2.00",
+    "unit": "cups",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 57,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 43,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 58,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 8,
+    "quantity": "2.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 59,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 28,
+    "quantity": "2.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 60,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 19,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 61,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 30,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 62,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 29,
+    "quantity": "1.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 63,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 48,
+    "quantity": "1.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 64,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 2,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 65,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 16,
+    "quantity": "4.00",
+    "unit": "cloves",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 66,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 3,
+    "quantity": null,
+    "unit": "pinch",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 67,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 18,
+    "quantity": "3.00",
+    "unit": "",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 68,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 25,
+    "quantity": "0.50",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 69,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 2,
+    "quantity": "1.00",
+    "unit": "tbsp",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 70,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 3,
+    "quantity": null,
+    "unit": "pinch",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 71,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 21,
+    "quantity": null,
+    "unit": "pinch",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 72,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 23,
+    "quantity": "1.00",
+    "unit": "cup shredded",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 73,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 31,
+    "quantity": "2.00",
+    "unit": "large",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 74,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 25,
+    "quantity": "1.00",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
+  "model": "recipes.recipeingredient",
+  "pk": 75,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 33,
+    "quantity": "0.25",
+    "unit": "cup",
+    "notes": ""
+  }
+},
+{
   "model": "ingredients.ingredient",
   "pk": 1,
   "fields": {
@@ -1129,6 +1690,262 @@
   }
 },
 {
+  "model": "ingredients.ingredient",
+  "pk": 17,
+  "fields": {
+    "name": "Flour",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 18,
+  "fields": {
+    "name": "Eggs",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 19,
+  "fields": {
+    "name": "Milk",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 20,
+  "fields": {
+    "name": "Sugar",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 21,
+  "fields": {
+    "name": "Pepper",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 22,
+  "fields": {
+    "name": "Onion",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 23,
+  "fields": {
+    "name": "Chicken Breast",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 24,
+  "fields": {
+    "name": "Ground Beef",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 25,
+  "fields": {
+    "name": "Cheese",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 26,
+  "fields": {
+    "name": "Tomatoes",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 27,
+  "fields": {
+    "name": "Lettuce",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 28,
+  "fields": {
+    "name": "Banana",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 29,
+  "fields": {
+    "name": "Honey",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 30,
+  "fields": {
+    "name": "Yogurt",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 31,
+  "fields": {
+    "name": "Tortilla",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 32,
+  "fields": {
+    "name": "Taco Seasoning",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 33,
+  "fields": {
+    "name": "Salsa",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 34,
+  "fields": {
+    "name": "Chocolate Chips",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 35,
+  "fields": {
+    "name": "Vanilla",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 36,
+  "fields": {
+    "name": "Baking Soda",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 37,
+  "fields": {
+    "name": "Parmesan",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 38,
+  "fields": {
+    "name": "Romaine Lettuce",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 39,
+  "fields": {
+    "name": "Croutons",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 40,
+  "fields": {
+    "name": "Mayo",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 41,
+  "fields": {
+    "name": "Lemon",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 42,
+  "fields": {
+    "name": "Chicken Broth",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 43,
+  "fields": {
+    "name": "Cream",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 44,
+  "fields": {
+    "name": "Rice",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 45,
+  "fields": {
+    "name": "Bell Pepper",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 46,
+  "fields": {
+    "name": "Pasta",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 47,
+  "fields": {
+    "name": "Maple Syrup",
+    "default_unit": ""
+  }
+},
+{
+  "model": "ingredients.ingredient",
+  "pk": 48,
+  "fields": {
+    "name": "Baguette",
+    "default_unit": ""
+  }
+},
+{
   "model": "categories.category",
   "pk": 1,
   "fields": {
@@ -1169,8 +1986,53 @@
   "pk": 5,
   "fields": {
     "name": "Breakfast",
-    "slug": "",
+    "slug": "breakfast",
     "created_at": "2026-01-12T11:56:05.184Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 6,
+  "fields": {
+    "name": "Lunch",
+    "slug": "lunch",
+    "created_at": "2026-01-12T12:00:36.370Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 7,
+  "fields": {
+    "name": "Dinner",
+    "slug": "dinner",
+    "created_at": "2026-01-12T12:00:36.374Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 8,
+  "fields": {
+    "name": "Dessert",
+    "slug": "dessert",
+    "created_at": "2026-01-12T12:00:36.377Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 9,
+  "fields": {
+    "name": "Snacks",
+    "slug": "snacks",
+    "created_at": "2026-01-12T12:00:36.380Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 10,
+  "fields": {
+    "name": "Beverages",
+    "slug": "beverages",
+    "created_at": "2026-01-12T12:00:36.382Z"
   }
 }
 ]
